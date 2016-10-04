@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Exch:_1CV8DtUD xmlns:V8Exch="http://www.1c.ru/V8/1CV8DtUD/" xmlns:core="http://v8.1c.ru/data" xmlns:v8="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<V8Exch:Data>
+		<v8:CatalogObject._ДемоМестаХранения>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef._ДемоМестаХранения">3cbec454-8681-11e6-82b5-1cb72c3205a7</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef._ДемоМестаХранения">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>00-000002</v8:Code>
+			<v8:Description>Тест: Склад</v8:Description>
+			<v8:МОЛ xsi:type="v8:CatalogRef._ДемоФизическиеЛица">00000000-0000-0000-0000-000000000000</v8:МОЛ>
+		</v8:CatalogObject._ДемоМестаХранения>
+		<v8:CatalogObject._ДемоНоменклатура>
+			<v8:IsFolder>true</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c862-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef._ДемоНоменклатура">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>00-000004</v8:Code>
+			<v8:Description>Бытовая техника</v8:Description>
+		</v8:CatalogObject._ДемоНоменклатура>
+		<v8:CatalogObject._ДемоНоменклатура>
+			<v8:IsFolder>true</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c865-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c862-cea2-11e2-acd3-005056c00008</v8:Parent>
+			<v8:Code>00-000005</v8:Code>
+			<v8:Description>Вентиляторы, пылесосы, кондиционеры</v8:Description>
+		</v8:CatalogObject._ДемоНоменклатура>
+		<v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c84b-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">2e651bbb-f773-4f2b-b14f-21a95d3e9b0b</v8:Parent>
+			<v8:Description>Кондиционеры</v8:Description>
+			<v8:КоличествоРеквизитов>1</v8:КоличествоРеквизитов>
+			<v8:КоличествоСведений/>
+			<v8:Используется>true</v8:Используется>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d2-cea6-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+		</v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+		<v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d2-cea6-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Description>Мощность, кВт (Кондиционеры)</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+				<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<Digits>7</Digits>
+					<FractionDigits>1</FractionDigits>
+					<AllowedSign>Nonnegative</AllowedSign>
+				</NumberQualifiers>
+			</v8:ValueType>
+			<v8:Виден>true</v8:Виден>
+			<v8:ВладелецДополнительныхЗначений xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">00000000-0000-0000-0000-000000000000</v8:ВладелецДополнительныхЗначений>
+			<v8:ДополнительныеЗначенияИспользуются>false</v8:ДополнительныеЗначенияИспользуются>
+			<v8:ДополнительныеЗначенияСВесом>false</v8:ДополнительныеЗначенияСВесом>
+			<v8:Доступен>true</v8:Доступен>
+			<v8:Заголовок>Мощность, кВт</v8:Заголовок>
+			<v8:ЗаголовокФормыВыбораЗначения/>
+			<v8:ЗаголовокФормыЗначения/>
+			<v8:ЗаполнятьОбязательно>false</v8:ЗаполнятьОбязательно>
+			<v8:Комментарий/>
+			<v8:МногострочноеПолеВвода>0</v8:МногострочноеПолеВвода>
+			<v8:НаборСвойств xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c84b-cea2-11e2-acd3-005056c00008</v8:НаборСвойств>
+			<v8:Подсказка/>
+			<v8:УдалитьСклоненияПредмета/>
+			<v8:ФорматСвойства/>
+			<v8:ЭтоДополнительноеСведение>false</v8:ЭтоДополнительноеСведение>
+		</v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+		<v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">b26b713d-cea9-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Description>Устарела (Общие)</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:boolean</Type>
+			</v8:ValueType>
+			<v8:Виден>true</v8:Виден>
+			<v8:ВладелецДополнительныхЗначений xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">00000000-0000-0000-0000-000000000000</v8:ВладелецДополнительныхЗначений>
+			<v8:ДополнительныеЗначенияИспользуются>false</v8:ДополнительныеЗначенияИспользуются>
+			<v8:ДополнительныеЗначенияСВесом>false</v8:ДополнительныеЗначенияСВесом>
+			<v8:Доступен>true</v8:Доступен>
+			<v8:Заголовок>Устарела</v8:Заголовок>
+			<v8:ЗаголовокФормыВыбораЗначения/>
+			<v8:ЗаголовокФормыЗначения/>
+			<v8:ЗаполнятьОбязательно>false</v8:ЗаполнятьОбязательно>
+			<v8:Комментарий/>
+			<v8:МногострочноеПолеВвода>0</v8:МногострочноеПолеВвода>
+			<v8:НаборСвойств xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">694ad71b-873a-4d31-8054-7c5e8725f456</v8:НаборСвойств>
+			<v8:Подсказка/>
+			<v8:УдалитьСклоненияПредмета/>
+			<v8:ФорматСвойства/>
+			<v8:ЭтоДополнительноеСведение>true</v8:ЭтоДополнительноеСведение>
+		</v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+		<v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">694ad71b-873a-4d31-8054-7c5e8725f456</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">2e651bbb-f773-4f2b-b14f-21a95d3e9b0b</v8:Parent>
+			<v8:Description>Общие</v8:Description>
+			<v8:PredefinedDataName>Справочник__ДемоНоменклатура_Общие</v8:PredefinedDataName>
+			<v8:КоличествоРеквизитов>1</v8:КоличествоРеквизитов>
+			<v8:КоличествоСведений>1</v8:КоличествоСведений>
+			<v8:Используется>true</v8:Используется>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d3-cea6-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+			<v8:ДополнительныеСведения>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">b26b713d-cea9-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеСведения>
+		</v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+		<v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d3-cea6-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Description>Цвет (Общие)</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:CatalogRef.ЗначенияСвойствОбъектов</Type>
+			</v8:ValueType>
+			<v8:Виден>true</v8:Виден>
+			<v8:ВладелецДополнительныхЗначений xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">00000000-0000-0000-0000-000000000000</v8:ВладелецДополнительныхЗначений>
+			<v8:ДополнительныеЗначенияИспользуются>true</v8:ДополнительныеЗначенияИспользуются>
+			<v8:ДополнительныеЗначенияСВесом>false</v8:ДополнительныеЗначенияСВесом>
+			<v8:Доступен>true</v8:Доступен>
+			<v8:Заголовок>Цвет</v8:Заголовок>
+			<v8:ЗаголовокФормыВыбораЗначения/>
+			<v8:ЗаголовокФормыЗначения/>
+			<v8:ЗаполнятьОбязательно>false</v8:ЗаполнятьОбязательно>
+			<v8:Комментарий/>
+			<v8:МногострочноеПолеВвода>0</v8:МногострочноеПолеВвода>
+			<v8:НаборСвойств xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">694ad71b-873a-4d31-8054-7c5e8725f456</v8:НаборСвойств>
+			<v8:Подсказка/>
+			<v8:УдалитьСклоненияПредмета/>
+			<v8:ФорматСвойства/>
+			<v8:ЭтоДополнительноеСведение>false</v8:ЭтоДополнительноеСведение>
+		</v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+		<v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c85a-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">2e651bbb-f773-4f2b-b14f-21a95d3e9b0b</v8:Parent>
+			<v8:Description>Программы</v8:Description>
+			<v8:КоличествоРеквизитов>1</v8:КоличествоРеквизитов>
+			<v8:КоличествоСведений/>
+			<v8:Используется>true</v8:Используется>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d9-cea6-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+		</v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+		<v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d9-cea6-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Description>Тип лицензии (Программы)</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:CatalogRef.ЗначенияСвойствОбъектов</Type>
+			</v8:ValueType>
+			<v8:Виден>true</v8:Виден>
+			<v8:ВладелецДополнительныхЗначений xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">00000000-0000-0000-0000-000000000000</v8:ВладелецДополнительныхЗначений>
+			<v8:ДополнительныеЗначенияИспользуются>true</v8:ДополнительныеЗначенияИспользуются>
+			<v8:ДополнительныеЗначенияСВесом>false</v8:ДополнительныеЗначенияСВесом>
+			<v8:Доступен>true</v8:Доступен>
+			<v8:Заголовок>Тип лицензии</v8:Заголовок>
+			<v8:ЗаголовокФормыВыбораЗначения/>
+			<v8:ЗаголовокФормыЗначения/>
+			<v8:ЗаполнятьОбязательно>true</v8:ЗаполнятьОбязательно>
+			<v8:Комментарий/>
+			<v8:МногострочноеПолеВвода>0</v8:МногострочноеПолеВвода>
+			<v8:НаборСвойств xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c85a-cea2-11e2-acd3-005056c00008</v8:НаборСвойств>
+			<v8:Подсказка/>
+			<v8:УдалитьСклоненияПредмета/>
+			<v8:ФорматСвойства/>
+			<v8:ЭтоДополнительноеСведение>false</v8:ЭтоДополнительноеСведение>
+		</v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+		<v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c86e-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">2e651bbb-f773-4f2b-b14f-21a95d3e9b0b</v8:Parent>
+			<v8:Description>Мебель</v8:Description>
+			<v8:КоличествоРеквизитов>1</v8:КоличествоРеквизитов>
+			<v8:КоличествоСведений/>
+			<v8:Используется>true</v8:Используется>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8de-cea6-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+		</v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+		<v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8de-cea6-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Description>Габариты (Мебель)</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+				<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<Length>30</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+			</v8:ValueType>
+			<v8:Виден>true</v8:Виден>
+			<v8:ВладелецДополнительныхЗначений xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">00000000-0000-0000-0000-000000000000</v8:ВладелецДополнительныхЗначений>
+			<v8:ДополнительныеЗначенияИспользуются>false</v8:ДополнительныеЗначенияИспользуются>
+			<v8:ДополнительныеЗначенияСВесом>false</v8:ДополнительныеЗначенияСВесом>
+			<v8:Доступен>true</v8:Доступен>
+			<v8:Заголовок>Габариты</v8:Заголовок>
+			<v8:ЗаголовокФормыВыбораЗначения/>
+			<v8:ЗаголовокФормыЗначения/>
+			<v8:ЗаполнятьОбязательно>false</v8:ЗаполнятьОбязательно>
+			<v8:Комментарий/>
+			<v8:МногострочноеПолеВвода>0</v8:МногострочноеПолеВвода>
+			<v8:НаборСвойств xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c86e-cea2-11e2-acd3-005056c00008</v8:НаборСвойств>
+			<v8:Подсказка/>
+			<v8:УдалитьСклоненияПредмета/>
+			<v8:ФорматСвойства/>
+			<v8:ЭтоДополнительноеСведение>false</v8:ЭтоДополнительноеСведение>
+		</v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+		<v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c84e-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">2e651bbb-f773-4f2b-b14f-21a95d3e9b0b</v8:Parent>
+			<v8:Description>Холодильники</v8:Description>
+			<v8:КоличествоРеквизитов>1</v8:КоличествоРеквизитов>
+			<v8:КоличествоСведений/>
+			<v8:Используется>true</v8:Используется>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">b26b711f-cea9-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+		</v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+		<v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">b26b711f-cea9-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Description>Экологический стандарт (Холодильники)</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:CatalogRef.ЗначенияСвойствОбъектов</Type>
+			</v8:ValueType>
+			<v8:Виден>true</v8:Виден>
+			<v8:ВладелецДополнительныхЗначений xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">00000000-0000-0000-0000-000000000000</v8:ВладелецДополнительныхЗначений>
+			<v8:ДополнительныеЗначенияИспользуются>true</v8:ДополнительныеЗначенияИспользуются>
+			<v8:ДополнительныеЗначенияСВесом>true</v8:ДополнительныеЗначенияСВесом>
+			<v8:Доступен>true</v8:Доступен>
+			<v8:Заголовок>Экологический стандарт</v8:Заголовок>
+			<v8:ЗаголовокФормыВыбораЗначения/>
+			<v8:ЗаголовокФормыЗначения/>
+			<v8:ЗаполнятьОбязательно>false</v8:ЗаполнятьОбязательно>
+			<v8:Комментарий/>
+			<v8:МногострочноеПолеВвода>0</v8:МногострочноеПолеВвода>
+			<v8:НаборСвойств xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c84e-cea2-11e2-acd3-005056c00008</v8:НаборСвойств>
+			<v8:Подсказка/>
+			<v8:УдалитьСклоненияПредмета/>
+			<v8:ФорматСвойства/>
+			<v8:ЭтоДополнительноеСведение>false</v8:ЭтоДополнительноеСведение>
+		</v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+		<v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">b26b7120-cea9-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Description>Гарантия, мес (Электротовары)</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+				<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<Digits>2</Digits>
+					<FractionDigits>0</FractionDigits>
+					<AllowedSign>Nonnegative</AllowedSign>
+				</NumberQualifiers>
+			</v8:ValueType>
+			<v8:Виден>true</v8:Виден>
+			<v8:ВладелецДополнительныхЗначений xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">00000000-0000-0000-0000-000000000000</v8:ВладелецДополнительныхЗначений>
+			<v8:ДополнительныеЗначенияИспользуются>false</v8:ДополнительныеЗначенияИспользуются>
+			<v8:ДополнительныеЗначенияСВесом>false</v8:ДополнительныеЗначенияСВесом>
+			<v8:Доступен>true</v8:Доступен>
+			<v8:Заголовок>Гарантия, мес</v8:Заголовок>
+			<v8:ЗаголовокФормыВыбораЗначения/>
+			<v8:ЗаголовокФормыЗначения/>
+			<v8:ЗаполнятьОбязательно>false</v8:ЗаполнятьОбязательно>
+			<v8:Комментарий/>
+			<v8:МногострочноеПолеВвода>0</v8:МногострочноеПолеВвода>
+			<v8:НаборСвойств xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c848-cea2-11e2-acd3-005056c00008</v8:НаборСвойств>
+			<v8:Подсказка/>
+			<v8:УдалитьСклоненияПредмета/>
+			<v8:ФорматСвойства/>
+			<v8:ЭтоДополнительноеСведение>false</v8:ЭтоДополнительноеСведение>
+		</v8:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения>
+		<v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+			<v8:IsFolder>true</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">2e651bbb-f773-4f2b-b14f-21a95d3e9b0b</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Description>Демо: Номенклатура</v8:Description>
+			<v8:PredefinedDataName>Справочник__ДемоНоменклатура</v8:PredefinedDataName>
+			<v8:Используется>true</v8:Используется>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d2-cea6-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d3-cea6-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d9-cea6-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8de-cea6-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">b26b711f-cea9-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">b26b7120-cea9-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+			<v8:ДополнительныеСведения>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">b26b713d-cea9-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеСведения>
+		</v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+		<v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c848-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">2e651bbb-f773-4f2b-b14f-21a95d3e9b0b</v8:Parent>
+			<v8:Description>Электротовары</v8:Description>
+			<v8:КоличествоРеквизитов>1</v8:КоличествоРеквизитов>
+			<v8:КоличествоСведений/>
+			<v8:Используется>true</v8:Используется>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">b26b7120-cea9-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:ПометкаУдаления>false</v8:ПометкаУдаления>
+			</v8:ДополнительныеРеквизиты>
+		</v8:CatalogObject.НаборыДополнительныхРеквизитовИСведений>
+		<v8:CatalogObject._ДемоВидыНоменклатуры>
+			<v8:Ref xsi:type="v8:CatalogRef._ДемоВидыНоменклатуры">f3b2c849-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>00-000002</v8:Code>
+			<v8:Description>Электротовары</v8:Description>
+			<v8:НаборСвойств xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c848-cea2-11e2-acd3-005056c00008</v8:НаборСвойств>
+			<v8:НаОсновномСкладе>false</v8:НаОсновномСкладе>
+			<v8:ГруппаДоступа xsi:type="v8:CatalogRef._ДемоГруппыДоступаНоменклатуры">00000000-0000-0000-0000-000000000000</v8:ГруппаДоступа>
+		</v8:CatalogObject._ДемоВидыНоменклатуры>
+		<v8:CatalogObject.ВидыКонтактнойИнформации>
+			<v8:IsFolder>true</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.ВидыКонтактнойИнформации">8cbaa30d-faab-45ad-880e-84f8b421f448</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.ВидыКонтактнойИнформации">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Description>Контактная информация справочника "Пользователи"</v8:Description>
+			<v8:PredefinedDataName>СправочникПользователи</v8:PredefinedDataName>
+			<v8:Используется>true</v8:Используется>
+		</v8:CatalogObject.ВидыКонтактнойИнформации>
+		<v8:CatalogObject.ВидыКонтактнойИнформации>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.ВидыКонтактнойИнформации">b930f2d1-4c2b-4f78-a697-4b87e83c8dd0</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.ВидыКонтактнойИнформации">8cbaa30d-faab-45ad-880e-84f8b421f448</v8:Parent>
+			<v8:Description>Электронная почта</v8:Description>
+			<v8:PredefinedDataName>EmailПользователя</v8:PredefinedDataName>
+			<v8:АдресТолькоРоссийский>false</v8:АдресТолькоРоссийский>
+			<v8:ВключатьСтрануВПредставление>false</v8:ВключатьСтрануВПредставление>
+			<v8:ЗапретитьРедактированиеПользователем>false</v8:ЗапретитьРедактированиеПользователем>
+			<v8:Используется>true</v8:Используется>
+			<v8:МожноИзменятьСпособРедактирования>true</v8:МожноИзменятьСпособРедактирования>
+			<v8:ОбязательноеЗаполнение>false</v8:ОбязательноеЗаполнение>
+			<v8:Подсказка>Адрес электронной почты пользователя</v8:Подсказка>
+			<v8:ПроверятьКорректность>true</v8:ПроверятьКорректность>
+			<v8:ПроверятьПоФИАС>false</v8:ПроверятьПоФИАС>
+			<v8:РазрешитьВводНесколькихЗначений>true</v8:РазрешитьВводНесколькихЗначений>
+			<v8:РедактированиеТолькоВДиалоге>false</v8:РедактированиеТолькоВДиалоге>
+			<v8:РеквизитДопУпорядочивания>2</v8:РеквизитДопУпорядочивания>
+			<v8:СкрыватьНеактуальныеАдреса>false</v8:СкрыватьНеактуальныеАдреса>
+			<v8:ТелефонCДобавочнымНомером>false</v8:ТелефонCДобавочнымНомером>
+			<v8:Тип>АдресЭлектроннойПочты</v8:Тип>
+			<v8:УказыватьОКТМО>false</v8:УказыватьОКТМО>
+			<v8:МногострочноеПоле>false</v8:МногострочноеПоле>
+			<v8:ХранитьИсториюИзменений>false</v8:ХранитьИсториюИзменений>
+		</v8:CatalogObject.ВидыКонтактнойИнформации>
+		<v8:CatalogObject.Пользователи>
+			<v8:Ref xsi:type="v8:CatalogRef.Пользователи">e7e28f5a-8d7e-11de-a1ba-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Description>Администратор</v8:Description>
+			<v8:Недействителен>false</v8:Недействителен>
+			<v8:Подразделение xsi:type="v8:CatalogRef._ДемоПодразделения">00000000-0000-0000-0000-000000000000</v8:Подразделение>
+			<v8:ФизическоеЛицо xsi:type="v8:CatalogRef._ДемоФизическиеЛица">00000000-0000-0000-0000-000000000000</v8:ФизическоеЛицо>
+			<v8:Комментарий/>
+			<v8:Служебный>false</v8:Служебный>
+			<v8:Подготовлен>false</v8:Подготовлен>
+			<v8:ИдентификаторПользователяИБ>ad1db191-f680-42fd-8465-ab078a9f6f2f</v8:ИдентификаторПользователяИБ>
+			<v8:ИдентификаторПользователяСервиса>00000000-0000-0000-0000-000000000000</v8:ИдентификаторПользователяСервиса>
+			<v8:СвойстваПользователяИБ>AQFDAQAAAAAAAO+7v3siIyIsNDIzODAxOWQtN2U0OS00ZmM5LTkxZGItYjZiOTUx
+ZDVjZjhlLA0KezQsDQp7DQp7IlMiLCLQktGF0L7QtNCS0J/RgNC+0LPRgNCw0LzQ
+vNGD0KDQsNC30YDQtdGI0LXQvSJ9LA0KeyJCIiwxfQ0KfSwNCnsNCnsiUyIsItCQ
+0YPRgtC10L3RgtC40YTQuNC60LDRhtC40Y/QodGC0LDQvdC00LDRgNGC0L3QsNGP
+In0sDQp7IkIiLDF9DQp9LA0Kew0KeyJTIiwi0JDRg9GC0LXQvdGC0LjRhNC40LrQ
+sNGG0LjRj09wZW5JRCJ9LA0KeyJCIiwwfQ0KfSwNCnsNCnsiUyIsItCQ0YPRgtC1
+0L3RgtC40YTQuNC60LDRhtC40Y/QntChIn0sDQp7IkIiLDB9DQp9DQp9DQp9</v8:СвойстваПользователяИБ>
+			<v8:КонтактнаяИнформация>
+				<v8:Тип>АдресЭлектроннойПочты</v8:Тип>
+				<v8:Вид xsi:type="v8:CatalogRef.ВидыКонтактнойИнформации">b930f2d1-4c2b-4f78-a697-4b87e83c8dd0</v8:Вид>
+				<v8:Представление>demo-admin@mycompany.zzz</v8:Представление>
+				<v8:ЗначенияПолей/>
+				<v8:Страна/>
+				<v8:Регион/>
+				<v8:Город/>
+				<v8:АдресЭП>demo-admin@mycompany.zzz</v8:АдресЭП>
+				<v8:ДоменноеИмяСервера>mycompany.zzz</v8:ДоменноеИмяСервера>
+				<v8:НомерТелефона/>
+				<v8:НомерТелефонаБезКодов/>
+				<v8:ВидДляСписка xsi:type="v8:CatalogRef.ВидыКонтактнойИнформации">00000000-0000-0000-0000-000000000000</v8:ВидДляСписка>
+			</v8:КонтактнаяИнформация>
+		</v8:CatalogObject.Пользователи>
+		<v8:CatalogObject._ДемоНоменклатураПрисоединенныеФайлы>
+			<v8:Ref xsi:type="v8:CatalogRef._ДемоНоменклатураПрисоединенныеФайлы">e8c12d6e-2cf5-11e4-acba-3085a93ddca2</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Description>Вентилятор настольный</v8:Description>
+			<v8:Автор xsi:type="v8:CatalogRef.Пользователи">e7e28f5a-8d7e-11de-a1ba-005056c00008</v8:Автор>
+			<v8:ВладелецФайла xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c871-cea2-11e2-acd3-005056c00008</v8:ВладелецФайла>
+			<v8:ДатаМодификацииУниверсальная>2014-08-26T07:52:00</v8:ДатаМодификацииУниверсальная>
+			<v8:ДатаСоздания>2014-08-26T11:53:20</v8:ДатаСоздания>
+			<v8:Зашифрован>false</v8:Зашифрован>
+			<v8:Изменил xsi:nil="true"/>
+			<v8:ИндексКартинки>42</v8:ИндексКартинки>
+			<v8:Описание/>
+			<v8:ПодписанЭП>false</v8:ПодписанЭП>
+			<v8:ПутьКФайлу/>
+			<v8:Размер>2916</v8:Размер>
+			<v8:Расширение>jpg</v8:Расширение>
+			<v8:Редактирует xsi:nil="true"/>
+			<v8:СтатусИзвлеченияТекста>Извлечен</v8:СтатусИзвлеченияТекста>
+			<v8:ТекстХранилище>AgFTS2/0iI3BTqDV67a9oKcN42aAgPe791crBSvpKCnVAgA=</v8:ТекстХранилище>
+			<v8:ТипХраненияФайла>ВИнформационнойБазе</v8:ТипХраненияФайла>
+			<v8:Том xsi:type="v8:CatalogRef.ТомаХраненияФайлов">00000000-0000-0000-0000-000000000000</v8:Том>
+			<v8:ФайлХранилище>AQEIAAAAAAAAAO+7v3siVSJ9</v8:ФайлХранилище>
+		</v8:CatalogObject._ДемоНоменклатураПрисоединенныеФайлы>
+		<v8:CatalogObject.ЗначенияСвойствОбъектов>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.ЗначенияСвойствОбъектов">2aeec8d6-cea6-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Owner xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d3-cea6-11e2-acd3-005056c00008</v8:Owner>
+			<v8:Parent xsi:type="v8:CatalogRef.ЗначенияСвойствОбъектов">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Description>Белый</v8:Description>
+			<v8:Вес>0</v8:Вес>
+		</v8:CatalogObject.ЗначенияСвойствОбъектов>
+		<v8:CatalogObject._ДемоНоменклатура>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c871-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c865-cea2-11e2-acd3-005056c00008</v8:Parent>
+			<v8:Code>00-000008</v8:Code>
+			<v8:Description>Вентилятор настольный</v8:Description>
+			<v8:ВидНоменклатуры xsi:type="v8:CatalogRef._ДемоВидыНоменклатуры">f3b2c849-cea2-11e2-acd3-005056c00008</v8:ВидНоменклатуры>
+			<v8:НаОсновномСкладе>false</v8:НаОсновномСкладе>
+			<v8:СкрытыйРеквизит/>
+			<v8:ФайлКартинки xsi:type="v8:CatalogRef._ДемоНоменклатураПрисоединенныеФайлы">e8c12d6e-2cf5-11e4-acba-3085a93ddca2</v8:ФайлКартинки>
+			<v8:ГруппаДоступа xsi:type="v8:CatalogRef._ДемоГруппыДоступаНоменклатуры">00000000-0000-0000-0000-000000000000</v8:ГруппаДоступа>
+			<v8:Цена>0</v8:Цена>
+			<v8:СтранаПроисхождения xsi:type="v8:CatalogRef.СтраныМира">00000000-0000-0000-0000-000000000000</v8:СтранаПроисхождения>
+			<v8:Штрихкод/>
+			<v8:Артикул/>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d3-cea6-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:Значение xsi:type="v8:CatalogRef.ЗначенияСвойствОбъектов">2aeec8d6-cea6-11e2-acd3-005056c00008</v8:Значение>
+				<v8:ТекстоваяСтрока/>
+			</v8:ДополнительныеРеквизиты>
+		</v8:CatalogObject._ДемоНоменклатура>
+		<v8:CatalogObject._ДемоВидыНоменклатуры>
+			<v8:Ref xsi:type="v8:CatalogRef._ДемоВидыНоменклатуры">f3b2c84c-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>00-000003</v8:Code>
+			<v8:Description>Кондиционеры</v8:Description>
+			<v8:НаборСвойств xsi:type="v8:CatalogRef.НаборыДополнительныхРеквизитовИСведений">f3b2c84b-cea2-11e2-acd3-005056c00008</v8:НаборСвойств>
+			<v8:НаОсновномСкладе>false</v8:НаОсновномСкладе>
+			<v8:ГруппаДоступа xsi:type="v8:CatalogRef._ДемоГруппыДоступаНоменклатуры">00000000-0000-0000-0000-000000000000</v8:ГруппаДоступа>
+		</v8:CatalogObject._ДемоВидыНоменклатуры>
+		<v8:CatalogObject._ДемоНоменклатураПрисоединенныеФайлы>
+			<v8:Ref xsi:type="v8:CatalogRef._ДемоНоменклатураПрисоединенныеФайлы">e8c12d71-2cf5-11e4-acba-3085a93ddca2</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Description>Кондиционер ELEKTA</v8:Description>
+			<v8:Автор xsi:type="v8:CatalogRef.Пользователи">e7e28f5a-8d7e-11de-a1ba-005056c00008</v8:Автор>
+			<v8:ВладелецФайла xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c877-cea2-11e2-acd3-005056c00008</v8:ВладелецФайла>
+			<v8:ДатаМодификацииУниверсальная>2014-08-26T07:58:28</v8:ДатаМодификацииУниверсальная>
+			<v8:ДатаСоздания>2014-08-26T11:58:39</v8:ДатаСоздания>
+			<v8:Зашифрован>false</v8:Зашифрован>
+			<v8:Изменил xsi:nil="true"/>
+			<v8:ИндексКартинки>42</v8:ИндексКартинки>
+			<v8:Описание/>
+			<v8:ПодписанЭП>false</v8:ПодписанЭП>
+			<v8:ПутьКФайлу/>
+			<v8:Размер>21269</v8:Размер>
+			<v8:Расширение>jpg</v8:Расширение>
+			<v8:Редактирует xsi:nil="true"/>
+			<v8:СтатусИзвлеченияТекста>Извлечен</v8:СтатусИзвлеченияТекста>
+			<v8:ТекстХранилище>AgFTS2/0iI3BTqDV67a9oKcN42aAgPe791crBSvpKCnVAgA=</v8:ТекстХранилище>
+			<v8:ТипХраненияФайла>ВИнформационнойБазе</v8:ТипХраненияФайла>
+			<v8:Том xsi:type="v8:CatalogRef.ТомаХраненияФайлов">00000000-0000-0000-0000-000000000000</v8:Том>
+			<v8:ФайлХранилище>AQEIAAAAAAAAAO+7v3siVSJ9</v8:ФайлХранилище>
+		</v8:CatalogObject._ДемоНоменклатураПрисоединенныеФайлы>
+		<v8:CatalogObject.ЗначенияСвойствОбъектов>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.ЗначенияСвойствОбъектов">2aeec8d4-cea6-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Owner xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d3-cea6-11e2-acd3-005056c00008</v8:Owner>
+			<v8:Parent xsi:type="v8:CatalogRef.ЗначенияСвойствОбъектов">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Description>Серый</v8:Description>
+			<v8:Вес>0</v8:Вес>
+		</v8:CatalogObject.ЗначенияСвойствОбъектов>
+		<v8:CatalogObject._ДемоНоменклатура>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c877-cea2-11e2-acd3-005056c00008</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c865-cea2-11e2-acd3-005056c00008</v8:Parent>
+			<v8:Code>00-000010</v8:Code>
+			<v8:Description>Кондиционер ELEKTA</v8:Description>
+			<v8:ВидНоменклатуры xsi:type="v8:CatalogRef._ДемоВидыНоменклатуры">f3b2c84c-cea2-11e2-acd3-005056c00008</v8:ВидНоменклатуры>
+			<v8:НаОсновномСкладе>false</v8:НаОсновномСкладе>
+			<v8:СкрытыйРеквизит/>
+			<v8:ФайлКартинки xsi:type="v8:CatalogRef._ДемоНоменклатураПрисоединенныеФайлы">e8c12d71-2cf5-11e4-acba-3085a93ddca2</v8:ФайлКартинки>
+			<v8:ГруппаДоступа xsi:type="v8:CatalogRef._ДемоГруппыДоступаНоменклатуры">00000000-0000-0000-0000-000000000000</v8:ГруппаДоступа>
+			<v8:Цена>0</v8:Цена>
+			<v8:СтранаПроисхождения xsi:type="v8:CatalogRef.СтраныМира">00000000-0000-0000-0000-000000000000</v8:СтранаПроисхождения>
+			<v8:Штрихкод/>
+			<v8:Артикул/>
+			<v8:ДополнительныеРеквизиты>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения">2aeec8d3-cea6-11e2-acd3-005056c00008</v8:Свойство>
+				<v8:Значение xsi:type="v8:CatalogRef.ЗначенияСвойствОбъектов">2aeec8d4-cea6-11e2-acd3-005056c00008</v8:Значение>
+				<v8:ТекстоваяСтрока/>
+			</v8:ДополнительныеРеквизиты>
+		</v8:CatalogObject._ДемоНоменклатура>
+		<v8:DocumentObject.Покупка>
+			<v8:Ref>de2e43dd-8a61-11e6-82b7-1cb72c3205a7</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2016-10-04T21:42:34</v8:Date>
+			<v8:Number>00000000001</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:МестоХранения xsi:type="v8:CatalogRef._ДемоМестаХранения">3cbec454-8681-11e6-82b5-1cb72c3205a7</v8:МестоХранения>
+			<v8:Ответственный xsi:type="v8:CatalogRef.Пользователи">00000000-0000-0000-0000-000000000000</v8:Ответственный>
+			<v8:Комментарий/>
+			<v8:Товары>
+				<v8:Номенклатура xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c871-cea2-11e2-acd3-005056c00008</v8:Номенклатура>
+				<v8:Количество>10</v8:Количество>
+				<v8:Цена>500</v8:Цена>
+			</v8:Товары>
+			<v8:Товары>
+				<v8:Номенклатура xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c877-cea2-11e2-acd3-005056c00008</v8:Номенклатура>
+				<v8:Количество>1</v8:Количество>
+				<v8:Цена>6000</v8:Цена>
+			</v8:Товары>
+		</v8:DocumentObject.Покупка>
+		<v8:AccumulationRegisterRecordSet.ОстаткиТоваров>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Покупка">de2e43dd-8a61-11e6-82b7-1cb72c3205a7</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.Покупка">de2e43dd-8a61-11e6-82b7-1cb72c3205a7</v8:Recorder>
+				<v8:Period>2016-10-04T21:42:34</v8:Period>
+				<v8:RecordType>Receipt</v8:RecordType>
+				<v8:Active>true</v8:Active>
+				<v8:МестоХранения xsi:type="v8:CatalogRef._ДемоМестаХранения">3cbec454-8681-11e6-82b5-1cb72c3205a7</v8:МестоХранения>
+				<v8:Номенклатура xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c871-cea2-11e2-acd3-005056c00008</v8:Номенклатура>
+				<v8:Количество>10</v8:Количество>
+				<v8:Цена>500</v8:Цена>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.Покупка">de2e43dd-8a61-11e6-82b7-1cb72c3205a7</v8:Recorder>
+				<v8:Period>2016-10-04T21:42:34</v8:Period>
+				<v8:RecordType>Receipt</v8:RecordType>
+				<v8:Active>true</v8:Active>
+				<v8:МестоХранения xsi:type="v8:CatalogRef._ДемоМестаХранения">3cbec454-8681-11e6-82b5-1cb72c3205a7</v8:МестоХранения>
+				<v8:Номенклатура xsi:type="v8:CatalogRef._ДемоНоменклатура">f3b2c877-cea2-11e2-acd3-005056c00008</v8:Номенклатура>
+				<v8:Количество>1</v8:Количество>
+				<v8:Цена>6000</v8:Цена>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ОстаткиТоваров>
+	</V8Exch:Data>
+	<PredefinedData>
+		<Справочник.ВидыКонтактнойИнформации>
+			<item Ссылка="8cbaa30d-faab-45ad-880e-84f8b421f448" ИмяПредопределенныхДанных="СправочникПользователи"/>
+			<item Ссылка="b930f2d1-4c2b-4f78-a697-4b87e83c8dd0" ИмяПредопределенныхДанных="EmailПользователя"/>
+		</Справочник.ВидыКонтактнойИнформации>
+		<Справочник.НаборыДополнительныхРеквизитовИСведений>
+			<item Ссылка="694ad71b-873a-4d31-8054-7c5e8725f456" ИмяПредопределенныхДанных="Справочник__ДемоНоменклатура_Общие"/>
+			<item Ссылка="2e651bbb-f773-4f2b-b14f-21a95d3e9b0b" ИмяПредопределенныхДанных="Справочник__ДемоНоменклатура"/>
+		</Справочник.НаборыДополнительныхРеквизитовИСведений>
+	</PredefinedData>
+</V8Exch:_1CV8DtUD>
