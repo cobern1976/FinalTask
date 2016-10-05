@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<CommandsOrder>
+		<Command name="DataProcessor.ИнструментыРазработчикаПереходНаВерсию232.Command.ПереходНаВерсию232">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаПереходНаВерсию231.Command.ПереходНаВерсию231">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаРасстановкаФрагментовКода224.Command.РасстановкаФрагментовКода">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаВариантыОтчетовРасстановкаФрагментовКода.Command.ВариантыОтчетов">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаБазоваяФункциональностьРасстановкаФрагментовКода.Command.БазоваяФункциональность">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаКонвертацияОбращенийККлючевымОперациям.Command.ОценкаПроизводительности">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаПечатьРасстановкаФрагментовКода.Command.Печать">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаДополнительныеОтчетыИОбработкиРасстановкаФрагментовКода.Command.ДополнительныеОтчетыИОбработки">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаКонтактнаяИнформацияРасстановкаФрагментовКода.Command.КонтактнаяИнформация">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаВариантыОтчетовПереносВариантовОтчетов.Command.ПереносВариантовОтчетов">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+	</GroupsOrder>
+</CommandInterface>

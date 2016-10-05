@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Расстановка фрагментов кода для перехода на версию 2.2.4</v8:content>
+		</v8:item>
+	</Title>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoTitle>false</AutoTitle>
+	<Customizable>false</Customizable>
+	<CommandBarLocation>Top</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="Выполнить" id="1">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.СформироватьКодМодулей</CommandName>
+				<ExtendedTooltip name="ВыполнитьExtendedTooltip" id="25"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Страницы" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<Page name="ГруппаНастроек" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбор базы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настроек</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаНастроекExtendedTooltip" id="26"/>
+					<ChildItems>
+						<LabelDecoration name="Пояснение" id="42">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Формирует текст переопределяемых модулей ЗапретРедактированияРеквизитовОбъектовПереопределяемый и ГрупповоеИзменениеОбъектовПереопределяемый.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПояснениеКонтекстноеМеню" id="43"/>
+							<ExtendedTooltip name="ПояснениеРасширеннаяПодсказка" id="44"/>
+						</LabelDecoration>
+						<RadioButtonField name="АдресБазы" id="13">
+							<DataPath>АдресБазы</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Анализировать</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Top</TitleLocation>
+							<RadioButtonType>Auto</RadioButtonType>
+							<ColumnsCount>1</ColumnsCount>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Текущую базу</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">ЭтаБаза</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Указанную базу (строка подключения):</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">УказаннаяБаза</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="АдресБазыКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="АдресБазыExtendedTooltip" id="27"/>
+							<Events>
+								<Event name="OnChange">АдресБазыПриИзменении</Event>
+							</Events>
+						</RadioButtonField>
+						<UsualGroup name="ГруппаПараметрыПодключения" id="17">
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПараметрыПодключенияExtendedTooltip" id="28"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаПодключение" id="20">
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПодключениеExtendedTooltip" id="30"/>
+									<ChildItems>
+										<LabelDecoration name="Отступ" id="51">
+											<Width>1</Width>
+											<ContextMenu name="ОтступКонтекстноеМеню" id="52"/>
+											<ExtendedTooltip name="ОтступРасширеннаяПодсказка" id="53"/>
+										</LabelDecoration>
+										<InputField name="СтрокаПодключения" id="15">
+											<DataPath>СтрокаПодключения</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<Width>40</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="СтрокаПодключенияКонтекстноеМеню" id="16"/>
+											<ExtendedTooltip name="СтрокаПодключенияExtendedTooltip" id="31"/>
+										</InputField>
+										<InputField name="ИмяАдминистратораИБ" id="21">
+											<DataPath>ИмяАдминистратораИБ</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Имя</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ИмяАдминистратораИБКонтекстноеМеню" id="22"/>
+											<ExtendedTooltip name="ИмяАдминистратораИБExtendedTooltip" id="32"/>
+										</InputField>
+										<InputField name="ПарольАдминистратораИБ" id="23">
+											<DataPath>ПарольАдминистратораИБ</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пароль</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ПарольАдминистратораИБКонтекстноеМеню" id="24"/>
+											<ExtendedTooltip name="ПарольАдминистратораИБExtendedTooltip" id="33"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="ДекорацияИнформацияОКонфигураторе" id="48">
+							<Height>3</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Перед запуском необходимо закрыть Конфигуратор для указанной ИБ.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Bottom</VerticalAlign>
+							<ContextMenu name="ДекорацияИнформацияОКонфигуратореКонтекстноеМеню" id="49"/>
+							<ExtendedTooltip name="ДекорацияИнформацияОКонфигуратореРасширеннаяПодсказка" id="50"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+				<Page name="Результат" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<LabelDecoration name="НадписьОКопирование" id="54">
+							<Height>2</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Скопируйте текст в буфер обмена и вставьте в соответствующие модули.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="НадписьОКопированиеКонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="НадписьОКопированиеРасширеннаяПодсказка" id="56"/>
+						</LabelDecoration>
+						<InputField name="ТекстЗапретРедактированияРеквизитовОбъектовПереопределяемый" id="39">
+							<DataPath>ТекстЗапретРедактированияРеквизитовОбъектовПереопределяемый</DataPath>
+							<MultiLine>true</MultiLine>
+							<ExtendedEdit>true</ExtendedEdit>
+							<ContextMenu name="ТекстЗапретРедактированияРеквизитовОбъектовПереопределяемыйКонтекстноеМеню" id="40"/>
+							<ExtendedTooltip name="ТекстЗапретРедактированияРеквизитовОбъектовПереопределяемыйРасширеннаяПодсказка" id="41"/>
+						</InputField>
+						<InputField name="ТекстГрупповоеИзменениеОбъектовПереопределяемый" id="45">
+							<DataPath>ТекстГрупповоеИзменениеОбъектовПереопределяемый</DataPath>
+							<MultiLine>true</MultiLine>
+							<ExtendedEdit>true</ExtendedEdit>
+							<ContextMenu name="ТекстГрупповоеИзменениеОбъектовПереопределяемыйКонтекстноеМеню" id="46"/>
+							<ExtendedTooltip name="ТекстГрупповоеИзменениеОбъектовПереопределяемыйРасширеннаяПодсказка" id="47"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ИнструментыРазработчикаРасстановкаФрагментовКода224</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ИмяАдминистратораИБ" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя администратора ИБ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяАдминистратораИБ</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ПарольАдминистратораИБ" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль администратора ИБ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КаталогВыгрузкиМодулей" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог выгрузки модулей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КаталогИБ" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог ИБ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресБазы" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес базы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+			<Save>
+				<Field>АдресБазы</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СтрокаПодключения" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка подключения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+			<Save>
+				<Field>СтрокаПодключения</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ТекстГрупповоеИзменениеОбъектовПереопределяемый" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общий модуль ГрупповоеИзменениеОбъектовПереопределяемый</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстЗапретРедактированияРеквизитовОбъектовПереопределяемый" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общий модуль ЗапретРедактированияРеквизитовОбъектовПереопределяемый</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СформироватьКодМодулей" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать код модулей</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать код модулей</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаВыполнить</Action>
+		</Command>
+	</Commands>
+</Form>
